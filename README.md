@@ -19,3 +19,8 @@ Feature 2: Show the detail of a character when is selected on the previous list
 * `Coil` was the library chosen as image loading library, I have worked with other famous libraries like `Picasso` and `glide` but for sometime I’ve been using Coil  because it is developed in `Kotlin` and used coroutines, the performance it’s quite good. 
 
 * UnitTest have been developed.
+
+Future features:
+
+*Implement data persistence with Room library 
+*Implement some filters, such as name search, series or comic appearance. 
