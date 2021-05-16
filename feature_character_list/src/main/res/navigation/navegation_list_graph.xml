@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegation_list_graph"
+    app:startDestination="@id/characterListFragment">
+
+    <include app:graph="@navigation/navegation_detail_graph" />
+
+    <fragment
+        android:id="@+id/characterListFragment"
+        android:name="com.mmartinez.feature_character_list.view.CharacterListFragment"
+        android:label="fragment_list_character"
+        tools:layout="@layout/fragment_list_character" >
+        <action
+            android:id="@+id/jumpToDetailFragment"
+            app:destination="@+id/navegation_detail_graph">
+            <argument
+                android:name="idCharacter"
+                app:argType="integer"
+                android:defaultValue="0" />
+        </action>
+
+    </fragment>
+</navigation>

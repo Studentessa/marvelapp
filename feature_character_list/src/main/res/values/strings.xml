@@ -1,0 +1,5 @@
+<resources>
+    <string name="fragment_lit_title">Marvel App</string>
+    <string name="fragment_list_empty_message">Lo sentimos! No hemos encontrado ningún personaje</string>
+    <string name="warning_network_view">"¡Ups, hago ha ido mal!  "</string>
+</resources>
